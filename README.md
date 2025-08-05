@@ -1,4 +1,3 @@
-# meu-script
 # Calculadora Simples em Python
 
 Este projeto contém um script em Python que realiza operações matemáticas básicas com dois números fornecidos pelo usuário. As operações disponíveis são: soma, subtração, multiplicação e divisão.
@@ -11,11 +10,15 @@ Existem duas formas de executar o código:
 
 No terminal (Linux/macOS) ou Git Bash (Windows), execute:
 
+```bash
 python3 calculadora.py
+```
 
 Se estiver usando Windows com Python instalado, também pode funcionar:
 
+```bash
 python calculadora.py
+```
 
 ### 2. Executar com o script .sh
 
@@ -23,16 +26,22 @@ Caso prefira usar um script automatizado (Linux/macOS):
 
 1. Dê permissão de execução:
 
+```bash
 chmod +x executar.sh
+```
 
 2. Execute o script:
 
+```bash
 ./executar.sh
+```
 
 ## Conteúdo do arquivo executar.sh
 
+```bash
 #!/bin/bash
 python3 calculadora.py
+```
 
 Certifique-se de que o nome do arquivo Python está correto.
 
@@ -47,6 +56,7 @@ Certifique-se de que o nome do arquivo Python está correto.
 
 ## Exemplo de uso
 
+```
 Digite o primeiro número: 10
 Digite o segundo número: 2
 
@@ -58,6 +68,7 @@ Escolha a operação que deseja realizar:
 
 Digite o número da operação: 4
 Resultado da divisão: 5.0
+```
 
 ## Estrutura do projeto
 
@@ -68,4 +79,3 @@ Resultado da divisão: 5.0
 ## Requisitos
 
 - Python 3.x instalado no sistema
-
